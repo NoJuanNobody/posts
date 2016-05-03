@@ -10,6 +10,7 @@ In my first week here at ZipCodeWilmington, I have learned a so much that I coul
 for the majority of my career as a front end dev, I did sometimes delve into some of the stronger languages like Ruby, and PHP, I even looked into bash scripting, but for a majority of my basic work on the front end only ever had to be programmed in a procedural manner. I often had to solve complex problems that had very specific scenarios but all in all, I could always get away with just writing a more complex procedure. Now, **let me tell you why I was completely wrong**
 
 if you were to write some sort of program that would add your groceries to a list it might look something like this:
+
 ```javascript
 var groceries = [];
 groceries.push("eggs")
@@ -24,6 +25,7 @@ function getGroceries( arr){
 function.getGroceries(groceries)
 ...
 ```
+
 this is a procedural approach, where you do one thing after another. for senarios where one thing happens, this works well, it is easy to break apart because it is how we live out lives. 
 
 > first i am going to get eggs, then i am going to get bread and nutella then i am going to pay and leave the supermarket.
